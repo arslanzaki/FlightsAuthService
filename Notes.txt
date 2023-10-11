@@ -14,3 +14,9 @@
     -> We can also implement Authentication using 3rd Party Packages Like Passport.js
 
 --> Learn About Web OTPs
+
+
+
+--> To generate the JWT token, we actually use the client-side credentials
+    - we don't need to store that token any where, using JWT token we can get the actual value
+    - we can easily verify it because if we try to decrypt that JWT token, we'll get the same information which generated the token. that's why we don't need to save it on the server
